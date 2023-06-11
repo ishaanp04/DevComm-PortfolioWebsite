@@ -100,6 +100,8 @@ li.nav-item a {
 
 /* End Header */
 
+/*Main Content*/
+
 .jumbotron {
     padding: 2rem 1rem;
     margin-top: 6rem;
@@ -149,7 +151,50 @@ li.nav-item a {
     margin-right: 100px;
 
 }
+/* End Main Content */
 
+footer {
+    background-color: #516067;
+    border-top: 2px solid #212a2e;
+}
+
+footer #footer-heading {
+    text-align: center;
+    color: #212a2e;
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer #contact-info-list ul{
+    list-style: none;
+    color: #212a2e;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+}
+
+footer #links-list ul{
+    list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 6px;
+}
+
+footer #links-list a {
+    text-decoration: none;
+    color: #212a2e;
+}
+footer #links-list a:hover {
+    text-decoration: none;
+    color: #27414d;
+}
 
 /* MEDIA QUERIES */
 
@@ -170,10 +215,10 @@ li.nav-item a {
         box-shadow: -5px 5px #38322C;
     }
     .jumbotron #projects-image {
-        background: url(../Images/POINTING\ 600px.jpg) no-repeat;
+        background: url(../Images/SCENERY\ 600px.jpg) no-repeat;
         border-radius: 0.8rem;
         border: 1px solid #38322C;
-        height: 310px;
+        height: 300px;
         box-shadow: 5px 5px #38322C;
     }
 
