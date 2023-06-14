@@ -43,12 +43,20 @@ body {
     margin-bottom: 3px;
 }
 
+#header-nav .navbar-toggler {
+    border: 2px solid #C38D4F;
+}
+
+#header-nav .fa-bars {
+    color: #C38D4F;
+}
+
 button.navbar-toggler:hover {
     background-color: #C38D4F;
 }
 
 button.navbar-toggler:hover .fa-bars {
-    background-color: #00ff26;
+    color: #38322C!important;
 }
 
 #nav-list a {
@@ -58,6 +66,7 @@ button.navbar-toggler:hover .fa-bars {
 #nav-list-socials li {
     width: 60px;
     float: right;
+    list-style: none;
 }
 
 #nav-list-socials .nav-item span {
@@ -88,14 +97,6 @@ li.nav-item a {
 
 #nav-list .nav-item:hover span {
     font-size: 1.2em;
-}
-
-#header-nav .navbar-toggler {
-    border: 2px solid #C38D4F;
-}
-
-#header-nav .fa-bars {
-    color: #C38D4F;
 }
 
 /* End Header */
@@ -242,8 +243,26 @@ footer #links-list a:hover {
     }
 
     /* End Header */
-    .jumbotron {
-        
+    .jumbotron #aboutme-image{
+        background: url(../Images/ME\ 496px.jpg) no-repeat;
+        height: 300px;
+        border-radius: 0.8rem;
+        border: 1px solid #38322C;
+        box-shadow: 5px 5px #38322C;
+    }
+    .jumbotron #skills-image {
+        background: url(../Images/POINTING\ 496px.jpg) no-repeat;
+        border-radius: 0.8rem;
+        border: 1px solid #38322C;
+        height: 310px;
+        box-shadow: -5px 5px #38322C;
+    }
+    .jumbotron #projects-image {
+        background: url(../Images/SCENERY\ 496px.jpg) no-repeat;
+        border-radius: 0.8rem;
+        border: 1px solid #38322C;
+        height: 300px;
+        box-shadow: 5px 5px #38322C;
     }
 }
 
@@ -264,10 +283,32 @@ footer #links-list a:hover {
         font-size: 0.6em;
     }
 
-
     /* End Header */
-    .jumbotron {
-        
+    .jumbotron #aboutme-image{
+        background: url(../Images/ME\ 661px.jpg) no-repeat;
+        height: 300px;
+        border-radius: 0.8rem;
+        border: 1px solid #38322C;
+        box-shadow: 5px 5px #38322C;
+    }
+    .jumbotron #skills-image {
+        background: url(../Images/POINTING\ 661px.jpg) no-repeat;
+        border-radius: 0.8rem;
+        border: 1px solid #38322C;
+        height: 310px;
+        box-shadow: -5px 5px #38322C;
+        margin-bottom: 15px;
+    }
+    .jumbotron #projects-image {
+        background: url(../Images/SCENERY\ 661px.jpg) no-repeat;
+        border-radius: 0.8rem;
+        border: 1px solid #38322C;
+        height: 300px;
+        box-shadow: 5px 5px #38322C;
+    }
+
+    #nav-list-socials {
+        margin-top: 8px;
     }
 }
 
@@ -288,22 +329,30 @@ footer #links-list a:hover {
         font-size: 1.5vw;
     }
 
-    div.navbar-collapse ul#nav-list {
-        width: 100px;
-        margin: 0 !important;
+    .navbar-toggler {
+        margin-top: 8px;
     }
+
 
     #nav-list li {
-        font-size: 15px;
+        /* font-size: 15px; */
+        font-size: 2.5vw;
         margin-top: 15px;
     }
-
-    #nav-list-socials li {
-        float: right;
-        margin: 0 !important;
+    #nav-list li span {
+        margin-right: 6px;
     }
 
+
     /* End Header */
+    .jumbotron h1 {
+        font-size: 7vw;
+    }
+    .jumbotron #below-heading {
+        font-size: 4vw;
+    }
 
-
+    #nav-list-socials {
+        margin-top: 8px;
+    }
 }
