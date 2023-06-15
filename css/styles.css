@@ -202,21 +202,24 @@ footer #links-list a:hover {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
     .jumbotron #aboutme-image{
-        background: url(../Images/ME\ 600px.jpg) no-repeat;
+        /* background: url(../Images/ME\ 600px.jpg) no-repeat; */
+        background: url(../Images/ME\ 619px.jpg) no-repeat;
         height: 300px;
         border-radius: 0.8rem;
         border: 1px solid #38322C;
         box-shadow: 5px 5px #38322C;
     }
     .jumbotron #skills-image {
-        background: url(../Images/POINTING\ 600px.jpg) no-repeat;
+        /* background: url(../Images/POINTING\ 600px.jpg) no-repeat; */
+        background: url(../Images/POINTING\ 619px.jpg) no-repeat;
         border-radius: 0.8rem;
         border: 1px solid #38322C;
         height: 310px;
         box-shadow: -5px 5px #38322C;
     }
     .jumbotron #projects-image {
-        background: url(../Images/SCENERY\ 600px.jpg) no-repeat;
+        /* background: url(../Images/SCENERY\ 600px.jpg) no-repeat; */
+        background: url(../Images/SCENERY\ 619px.jpg) no-repeat;
         border-radius: 0.8rem;
         border: 1px solid #38322C;
         height: 300px;
